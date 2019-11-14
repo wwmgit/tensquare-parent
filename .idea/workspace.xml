@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/Snipaste_2019-11-14_16-51-34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/QaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/client/LabelClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/client/impl/LabelClientImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/controller/ProblemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/controller/ReplyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/dao/ProblemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/dao/ReplyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/filter/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/pojo/Pl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/pojo/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/pojo/Reply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/service/ProblemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/java/com/tensquare/qa/service/ReplyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-qa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/ArticleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/ChannelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/ColumnController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/dao/ChannelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/dao/ColumnDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/pojo/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/pojo/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ChannelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ColumnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,8 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -108,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.QaApplication">
+  <component name="RunManager" selected="Spring Boot.ArticleApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -152,6 +152,19 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare-article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.article.ArticleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,6 +215,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ArticleApplication" />
         <item itemvalue="Spring Boot.QaApplication" />
         <item itemvalue="Application.IdWorker" />
         <item itemvalue="Application.IdWorker1" />
@@ -221,7 +235,7 @@
       <updated>1573627464813</updated>
       <workItem from="1573627471861" duration="12235000" />
       <workItem from="1573640266017" duration="7143000" />
-      <workItem from="1573716550206" duration="8467000" />
+      <workItem from="1573716550206" duration="9593000" />
     </task>
     <servers />
   </component>
