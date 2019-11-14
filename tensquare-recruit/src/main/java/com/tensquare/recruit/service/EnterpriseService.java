@@ -1,28 +1,21 @@
 package com.tensquare.recruit.service;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
-import javax.persistence.criteria.Selection;
-
+import com.tensquare.recruit.dao.EnterpriseDao;
+import com.tensquare.recruit.pojo.Enterprise;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
-
 import util.IdWorker;
 
-import com.tensquare.recruit.dao.EnterpriseDao;
-import com.tensquare.recruit.pojo.Enterprise;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 服务层
@@ -38,6 +31,12 @@ public class EnterpriseService {
 	
 	@Autowired
 	private IdWorker idWorker;
+
+
+	//热门企业列表
+	public List<Enterprise> hotlist(){
+		return enterpriseDao.findByIshot("1");
+	}
 
 	/**
 	 * 查询全部列表
@@ -154,12 +153,9 @@ public class EnterpriseService {
                 if (searchMap.get("url")!=null && !"".equals(searchMap.get("url"))) {
                 	predicateList.add(cb.like(root.get("url").as(String.class), "%"+(String)searchMap.get("url")+"%"));
                 }
-				
 				return cb.and( predicateList.toArray(new Predicate[predicateList.size()]));
-
 			}
 		};
-
 	}
 
 }
