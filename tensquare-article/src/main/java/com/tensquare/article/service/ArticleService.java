@@ -35,6 +35,9 @@ public class ArticleService {
 	@Autowired
 	private IdWorker idWorker;
 
+	@Autowired
+	private RedisTemplate redisTemplate;
+
 
 	/**
 	 * 点赞
@@ -89,9 +92,6 @@ public class ArticleService {
 		return articleDao.findAll(specification);
 	}
 
-
-	@Autowired
-    private RedisTemplate redisTemplate;
 
 	/**
 	 * 根据ID查询实体 ,加入缓存

@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare-article/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/ArticleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/ChannelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/ColumnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/dao/ArticleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/dao/ChannelDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/dao/ColumnDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/dao/CommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/pojo/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/pojo/Column.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/pojo/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ChannelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ColumnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-article/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare-article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-article/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +216,7 @@
       <updated>1573627464813</updated>
       <workItem from="1573627471861" duration="12235000" />
       <workItem from="1573640266017" duration="7143000" />
-      <workItem from="1573716550206" duration="9593000" />
+      <workItem from="1573716550206" duration="11766000" />
     </task>
     <servers />
   </component>
