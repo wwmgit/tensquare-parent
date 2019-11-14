@@ -35,12 +35,12 @@ public class RecruitService {
 
 	//最新职位列表
 	public List<Recruit> newlist() {
-		return recruitDao.findTop12ByStateNotOrderByCreatetimeDesc("0");
+		return recruitDao.findTop12ByStateNotOrderByCreateTimeDesc("0");
 	}
 
 	//推荐职位列表
 	public List<Recruit> findTop4ByStateOrderByCreatetimeDesc(String state){
-		return recruitDao.findTop4ByStateOrderByCreatetimeDesc(state);
+		return recruitDao.findTop4ByStateOrderByCreateTimeDesc(state);
 	}
 
 	/**
@@ -116,9 +116,7 @@ public class RecruitService {
 	 * @return
 	 */
 	private Specification<Recruit> createSpecification(Map searchMap) {
-
 		return new Specification<Recruit>() {
-
 			@Override
 			public Predicate toPredicate(Root<Recruit> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
 				List<Predicate> predicateList = new ArrayList<Predicate>();

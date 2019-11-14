@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="" />
+    <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/RecruitApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/RecruitApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/RecruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/RecruitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/dao/EnterpriseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/dao/EnterpriseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -51,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wwmHome\tensquare\tensquare-parent\tensquare-recruit\src\main\java\com\tensquare\recruit" />
       <recent name="D:\wwmHome\tensquare-parent" />
       <recent name="D:\wwmHome\tensquare-parent\tensquare-base\src\main\java\com\tensquare\base" />
       <recent name="D:\wwmHome\tensquare-parent\tensquare-common\src\main\java\entity" />
@@ -167,7 +176,7 @@
       <updated>1573627464813</updated>
       <workItem from="1573627471861" duration="12235000" />
       <workItem from="1573640266017" duration="7143000" />
-      <workItem from="1573716550206" duration="1968000" />
+      <workItem from="1573716550206" duration="4390000" />
     </task>
     <servers />
   </component>

@@ -15,9 +15,9 @@ import java.util.List;
 public interface RecruitDao extends JpaRepository<Recruit,String>,JpaSpecificationExecutor<Recruit>{
 
     //推荐职位列表
-    public List<Recruit> findTop4ByStateOrderByCreatetimeDesc(String state);
+    List<Recruit> findTop4ByStateOrderByCreateTimeDesc(String state);
 
 
     //最新职位列表
-    List<Recruit> findTop12ByStateNotOrderByCreatetimeDesc(String state);
+    List<Recruit> findTop12ByStateNotOrderByCreateTimeDesc(String state);
 }
