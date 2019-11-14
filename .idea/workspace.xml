@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/BaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/config/IdWorkerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/controller/LabelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/dao/LabelDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/handler/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/pojo/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/service/LabelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/entity/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/entity/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/util/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/util/IdWorker1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/RecruitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/RecruitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/dao/EnterpriseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/pojo/Enterprise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/pojo/Recruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +167,7 @@
       <updated>1573627464813</updated>
       <workItem from="1573627471861" duration="12235000" />
       <workItem from="1573640266017" duration="7143000" />
-      <workItem from="1573716550206" duration="776000" />
+      <workItem from="1573716550206" duration="1968000" />
     </task>
     <servers />
   </component>
