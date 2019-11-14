@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/BaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/config/IdWorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/controller/LabelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/dao/LabelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/handler/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/pojo/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/service/LabelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-base/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-common/src/main/java/util/IdWorker1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/RecruitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/controller/RecruitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/dao/EnterpriseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/pojo/Enterprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/pojo/Recruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-recruit/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TYC6DKvKCCZNDTe326koWb5EGD" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wwmHome\tensquare-parent" />
+      <recent name="D:\wwmHome\tensquare-parent\tensquare-base\src\main\java\com\tensquare\base" />
+      <recent name="D:\wwmHome\tensquare-parent\tensquare-common\src\main\java\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IdWorker">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.IdWorker" />
+      <module name="tensquare-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdWorker1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.IdWorker1" />
+      <module name="tensquare-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.base.BaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IdWorker" />
+        <item itemvalue="Application.IdWorker1" />
+        <item itemvalue="Spring Boot.BaseApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="" />
+      <created>1573627464813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573627464813</updated>
+      <workItem from="1573627471861" duration="12235000" />
+      <workItem from="1573640266017" duration="7143000" />
+      <workItem from="1573716550206" duration="776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tensquare-base/src/main/java/com/tensquare/base/service/LabelService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
