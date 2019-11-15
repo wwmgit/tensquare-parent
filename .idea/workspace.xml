@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-article/src/main/java/com/tensquare/article/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare-article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare-article/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-gathering/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/GatheringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/controller/GatheringController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/dao/GatheringDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/pojo/Gathering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/service/GatheringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ArticleApplication">
+  <component name="RunManager" selected="Spring Boot.GatheringApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -150,15 +157,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare-base" />
+    <configuration name="GatheringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare-gathering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tensquare.base.*" />
+          <option name="PATTERN" value="com.tensquare.gathering.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.base.BaseApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.gathering.GatheringApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatheringApplication" />
         <item itemvalue="Spring Boot.ArticleApplication" />
         <item itemvalue="Spring Boot.QaApplication" />
         <item itemvalue="Application.IdWorker" />
         <item itemvalue="Application.IdWorker1" />
-        <item itemvalue="Spring Boot.BaseApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +223,8 @@
       <updated>1573627464813</updated>
       <workItem from="1573627471861" duration="12235000" />
       <workItem from="1573640266017" duration="7143000" />
-      <workItem from="1573716550206" duration="11766000" />
+      <workItem from="1573716550206" duration="12882000" />
+      <workItem from="1573738308967" duration="595000" />
     </task>
     <servers />
   </component>
@@ -228,7 +236,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
