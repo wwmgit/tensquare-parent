@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3466478a-955a-45e6-8edf-72363a5a8ac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare-gathering/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/GatheringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/controller/GatheringController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/dao/GatheringDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/pojo/Gathering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/java/com/tensquare/gathering/service/GatheringService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare-gathering/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MongoDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MongoDemo/src/main/java/com/itheima/test/MongoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MongoDemo/src/main/java/com/itheima/test/MongoDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MongoDemo/src/main/java/com/itheima/test/MongoDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MongoDemo/src/main/java/com/itheima/test/MongoDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-spit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-spit/src/main/java/com/tensquare/spit/SpitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-spit/src/main/java/com/tensquare/spit/controller/SpitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-spit/src/main/java/com/tensquare/spit/dao/SpitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-spit/src/main/java/com/tensquare/spit/pojo/Spit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-spit/src/main/java/com/tensquare/spit/service/SpitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare-spit/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,6 +59,12 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1TYC6DKvKCCZNDTe326koWb5EGD" />
   <component name="ProjectLevelVcsManager">
@@ -67,13 +77,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MongoDemo/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -96,20 +106,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatheringApplication">
+  <component name="RunManager" selected="Spring Boot.SpitApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.IdWorker" />
-      <module name="tensquare-common" />
+    <configuration name="MongoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MongoDemo" />
+      <module name="MongoDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="com.itheima.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdWorker1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.IdWorker1" />
-      <module name="tensquare-common" />
+    <configuration name="MongoDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MongoDemo4" />
+      <module name="MongoDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="com.itheima.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,15 +180,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare-qa" />
+    <configuration name="SpitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare-spit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tensquare.qa.*" />
+          <option name="PATTERN" value="com.tensquare.spit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.qa.QaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.spit.SpitApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpitApplication" />
+        <item itemvalue="Application.MongoDemo" />
+        <item itemvalue="Application.MongoDemo4" />
         <item itemvalue="Spring Boot.GatheringApplication" />
         <item itemvalue="Spring Boot.ArticleApplication" />
-        <item itemvalue="Spring Boot.QaApplication" />
-        <item itemvalue="Application.IdWorker" />
-        <item itemvalue="Application.IdWorker1" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +234,7 @@
       <workItem from="1573627471861" duration="12235000" />
       <workItem from="1573640266017" duration="7143000" />
       <workItem from="1573716550206" duration="12882000" />
-      <workItem from="1573738308967" duration="595000" />
+      <workItem from="1573738308967" duration="5737000" />
     </task>
     <servers />
   </component>
